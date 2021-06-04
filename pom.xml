@@ -4,7 +4,7 @@
 
 	<groupId>com.mycompany</groupId>
 	<artifactId>demo</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT-Configure</version>
     <packaging>mule-application</packaging>
 
 	<name>project</name>
@@ -30,7 +30,8 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				</configuration>
+				<classifier>mule-application</classifier>
+                </configuration>
 			</plugin>
 		</plugins>
 	</build>
